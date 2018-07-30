@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logoiit"
+    tools:context=".login_activity"
+    android:id="@+id/relativeLayout">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_marginTop="152dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Email id"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="#FF5733"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="284dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="256dp"
+        android:background="@drawable/edittext"
+        android:ems="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="Roll no"
+        android:inputType="textPersonName"
+        android:textColor="@android:color/holo_green_dark"
+        android:textColorHint="#FF5733"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="277dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="132dp"
+        android:background="@drawable/background"
+        android:text="LOGIN"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textColorHint="#8C9EFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.042" />
+
+
+</android.support.constraint.ConstraintLayout>
