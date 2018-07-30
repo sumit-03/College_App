@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             imageViewNext.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                  //  startActivity(new Intent(MainActivity.this,LoginActicity.class));
+                   startActivity(new Intent(MainActivity.this,login_activity.class));
                 }
             });
 
