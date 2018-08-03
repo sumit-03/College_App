@@ -34,7 +34,10 @@ public class login_activity extends AppCompatActivity {
                         Toast.makeText(login_activity.this,"login successful",Toast.LENGTH_SHORT).show();
                         email.setText("");
                         rollno.setText("");
-                        //startActivity(new Intent(login_activity.this,));
+
+                        //startActivity(new Intent(login_activity.this,gymkhana.class));
+                        main_page();
+
                     }
                     else
                     {
@@ -49,6 +52,13 @@ public class login_activity extends AppCompatActivity {
 
 
     }
+
+    private void main_page() {
+
+        Intent intent =new Intent(this , main_page.class);
+        startActivity(intent);
+    }
+
     private boolean validate(){
         result=false;
         if(email.getText().toString().isEmpty()||rollno.getText().toString().isEmpty()){
