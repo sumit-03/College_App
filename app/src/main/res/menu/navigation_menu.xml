@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nav_campus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:icon="@drawable/ic_map_black_24dp"
+        android:title="Campus Tour" />
+    <item
+        android:id="@+id/nav_academics"
+        android:icon="@drawable/ic_account_balance_black_24dp"
+        android:title="Academics" />
+    <item
+        android:id="@+id/nav_gymkhana"
+        android:icon="@drawable/ic_directions_bike_black_24dp"
+        android:title="Gymkhana" />
+    <item
+        android:id="@+id/nav_transport"
+        android:icon="@drawable/ic_directions_bus_black_24dp"
+        android:title="Transport" />
+    <item
+        android:id="@+id/nav_hell"
+        android:icon="@drawable/chat"
+        android:title="Welcome To Hell" />
+</menu>
