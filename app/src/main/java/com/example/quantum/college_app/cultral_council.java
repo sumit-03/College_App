@@ -11,9 +11,8 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.TextView;
 
-public class gymkhana extends AppCompatActivity {
+public class cultral_council extends AppCompatActivity {
     public DrawerLayout dl;
     //public ActionBarDrawerToggle abdt;
 
@@ -22,42 +21,6 @@ public class gymkhana extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gymkhana);
         dl =(DrawerLayout)findViewById(R.id.drawer_layout);
-         TextView text1;
-         text1= (TextView)findViewById(R.id.textView3) ;
-        text1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(gymkhana.this,technical_council.class));
-            }
-        });
-        TextView text2;
-        text2= (TextView)findViewById(R.id.textView4) ;
-        text2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(gymkhana.this,cultral_council.class));
-            }
-        });
-        TextView text3;
-        text3= (TextView)findViewById(R.id.textView5) ;
-        text3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-               startActivity(new Intent(gymkhana.this,sports_council.class));
-            }
-        });
-        TextView text4;
-        text4= (TextView)findViewById(R.id.textView6) ;
-        text4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(gymkhana.this,fests.class));
-            }
-        });
-        {
-
-        };
-
         dl.addDrawerListener(
                 new DrawerLayout.DrawerListener() {
                     @Override
@@ -94,22 +57,22 @@ public class gymkhana extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 if (id == R.id.nav_academics) {
-                    startActivity(new Intent(gymkhana.this, academics.class));
+                    startActivity(new Intent(cultral_council.this, academics.class));
 
                 }
                 if (id == R.id.nav_campus) {
-                    startActivity(new Intent(gymkhana.this, campus_tour.class));
+                    startActivity(new Intent(cultral_council.this, campus_tour.class));
 
                 }
                 if (id == R.id.nav_gymkhana) {
-                    startActivity(new Intent(gymkhana.this, gymkhana.class));
+                    startActivity(new Intent(cultral_council.this, gymkhana.class));
 
                 }
                 if (id == R.id.nav_transport) {
-                    startActivity(new Intent(gymkhana.this, transport.class));
+                    startActivity(new Intent(cultral_council.this, transport.class));
                 }
                 if (id == R.id.nav_hell) {
-                    startActivity(new Intent(gymkhana.this, chat_support.class));
+                    startActivity(new Intent(cultral_council.this, chat_support.class));
 
                 }
                 return true;
@@ -118,6 +81,5 @@ public class gymkhana extends AppCompatActivity {
         });
 
     }
-
 
 }
