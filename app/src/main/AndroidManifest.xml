@@ -27,7 +27,8 @@
         <activity android:name=".technical_council" />
         <activity android:name=".cultral_council" />
         <activity android:name=".sports_council" />
-        <activity android:name=".fests"></activity>
+        <activity android:name=".fests" />
+        <activity android:name=".fest_alma"></activity>
     </application>
 
 </manifest>
