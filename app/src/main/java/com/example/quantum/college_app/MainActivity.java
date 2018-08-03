@@ -22,7 +22,7 @@ private Button next;
             next.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                   //startActivity(new Intent(MainActivity.this,LoginActicity.class));
+                   startActivity(new Intent(MainActivity.this,login_activity.class));
                 }
             });
 
