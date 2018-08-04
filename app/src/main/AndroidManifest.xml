@@ -30,7 +30,8 @@
         <activity android:name=".fests" />
         <activity android:name=".fest_alma" />
         <activity android:name=".wisssenaire" />
-        <activity android:name=".e_summit"></activity>
+        <activity android:name=".e_summit" />
+        <activity android:name=".dramatics"></activity>
     </application>
 
 </manifest>
