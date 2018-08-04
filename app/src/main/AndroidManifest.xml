@@ -23,7 +23,15 @@
         <activity android:name=".academics" />
         <activity android:name=".transport" />
         <activity android:name=".campus_tour" />
-        <activity android:name=".chat_support"></activity>
+        <activity android:name=".chat_support" />
+        <activity android:name=".technical_council" />
+        <activity android:name=".cultral_council" />
+        <activity android:name=".sports_council" />
+        <activity android:name=".fests" />
+        <activity android:name=".fest_alma" />
+        <activity android:name=".wisssenaire" />
+        <activity android:name=".e_summit" />
+        <activity android:name=".dramatics"></activity>
     </application>
 
 </manifest>
