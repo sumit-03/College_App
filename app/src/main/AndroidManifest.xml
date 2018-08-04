@@ -29,7 +29,8 @@
         <activity android:name=".sports_council" />
         <activity android:name=".fests" />
         <activity android:name=".fest_alma" />
-        <activity android:name=".wisssenaire"></activity>
+        <activity android:name=".wisssenaire" />
+        <activity android:name=".e_summit"></activity>
     </application>
 
 </manifest>
