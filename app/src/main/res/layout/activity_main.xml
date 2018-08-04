@@ -31,23 +31,27 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.171" />
 
-    <ImageView
-        android:id="@+id/ivnext"
-        android:layout_width="77dp"
-        android:layout_height="28dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="96dp"
+    <Button
+        android:id="@+id/buttonnext"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
-        android:layout_marginRight="96dp"
+        android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:background="@android:color/holo_purple"
+        android:background="@drawable/buttonstyle"
+        android:text="Next-->"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.812"
+        app:layout_constraintHorizontal_bias="0.457"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.965"
-        app:srcCompat="@drawable/next2" />
+        app:layout_constraintVertical_bias="0.984" />
 
 </android.support.constraint.ConstraintLayout>
